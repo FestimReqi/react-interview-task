@@ -1,41 +1,35 @@
-# Flex Business Solutions Tech Test - Inventory Management
+# Hello Flex Business Solutions
 
-In Flex Business Solutions, we aim to provide excellence and efficiency on all our lines of code in order to support the day-to-day activities of the company using our software solutions. In this task, you will be provided with a simple design of an app, fetching a list of products from an external source and allowing the user to search or filter among the list.
+> I have completed the project you sent me via email. The frontend is built with React.js and styled using pure CSS to match the Figma design. The backend is developed with Express.js and MongoDB
 
+## For frontend install
 
-### Tech Test Overview
-We have provided below the Figma link of this task. On the main page, we have a list of job sites with their corresponding status. By clicking the "Create" button we can create other job sites and add them to the list. By clicking to the jobsite name, we are redirected to the inventory dashboard for that particular job site. There, we can update items inside categories by double cliking on each cell where the content of that row will automatically be shown on the modal. Updating any specific column and hitting "Save", the content of the table should be automatically updated.
+> You can install frontend like this
 
-[FIGMA] [https://www.figma.com/file/uOxY3AiUFaGuxsU9nk0H1O/ReactJs-Test?node-id=0%3A1]
+```bash
+cd reactjs-inventory
+npm install
+npm run dev
 
-We love to see:
-- Functional code
-- Good design
-- Unit testing
+```
 
+## For backend install
 
-### Notes
-All of you work should take place inside this repository.
+> You can install backend like this
 
-You are free to use any packages that would help with this task
+```bash
+cd reactjs-inventory-backend
+npm install
+npm run dev
 
-You do not need to add additional security measures as part of this exercise.
-We're interested in how you break down the work and build your solution in a clean, easy-to-use, reusable and testable manner.
+```
 
+Live link: [inventory-managment](https://inventory-managment-flex-fr.netlify.app/).
 
-## Deliverables
-You must follow the Figma design and need to add the functionality of:
-a) Create new job sites with their categories
-c) Search job sites & items on the inventory page
-b) Update items on each category
+```
+https://inventory-managment-flex-fr.netlify.app
+```
 
-**Create a folder inside the repository and include finished screenshots of the app.**
-**Please make sure to update the readme with**:
+> When you visit the live URL, it may take up to one minute for the data links to load
 
-- How to run your app with all the necessary details
-- Relating to the task please add answers to the following questions;
-    1. How might you make this app more secure?
-    2. How would you make this solution scale to millions of records?
-  
-
-On completion email a link to your repository to your contact at FLEX BUSINESS SOLUTIONS and ensure it is publicly accessible.
+> The frontend is hosted on Netlify, and the backend is deployed on Render
